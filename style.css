@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* **one** */
+.one {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.location {
+  line-height: 19px;
+}
+.location :nth-child(1) {
+  color: #ff0000;
+  font-size: 15px;
+}
+
+.location :nth-child(2) {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  padding-left: 4px;
+}
+.userIcon {
+  border: 1px solid rgba(128, 128, 128, 0.385);
+  color: grey;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* padding: 9px; */
+}
+
+/* **two** */
+.two {
+  padding: 0px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #005491;
+  height: 57px;
+}
+.tLeft {
+  display: flex;
+  gap: 5px;
+}
+.tLocationIcon {
+  color: white;
+  font-size: 17px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #62a8db;
+}
+.tLeft p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: white;
+  padding-top: 3px;
+}
+.tRight button {
+  padding: 7px 12px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* **three** */
+.three {
+  border: 1px solid rgba(128, 128, 128, 0.084);
+  margin: 17px 17px 10px 17px;
+  height: 50px;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tDelivery {
+  color: white;
+  background-color: #2e2e2e;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tDelivery :nth-child(1) {
+  font-weight: 800;
+}
+.tDelivery :nth-child(2) {
+  font-size: 11px;
+}
+.tTakeaway {
+  font-size: 12px;
+  color: grey;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(128, 128, 128, 0.168);
+}
+.tTakeaway :nth-child(1) {
+  font-weight: 600;
+  color: rgb(108, 108, 108);
+}
+.tTakeaway :nth-child(2) {
+  font-size: 11px;
+}
+.tDine-in {
+  font-size: 12px;
+  color: grey;
+
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tDine-in :nth-child(1) {
+  font-weight: 600;
+  color: rgb(108, 108, 108);
+}
+.tDine-in :nth-child(2) {
+  font-size: 11px;
+}
+
+/* **four** */
+.four {
+  padding: 0 20px;
+}
+.fHeading{
+    /* border: 1px solid blue; */
+    padding: 0 0 7px 0;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -.8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fOffer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.fOfferLeft {
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background: #0457b4;
+  border: none;
+  background: linear-gradient(
+    257deg,
+    rgba(4, 87, 180, 1) 0%,
+    rgba(13, 102, 193, 0.91) 100%,
+    rgba(20, 114, 204, 0.83) 54%
+  );
+}
+
+.fOfferLTop{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fOfferLTop p{
+  font-weight: 700;
+  font-size: 15px;
+}
+.fOLdetail > p {
+  font-size: 12px;
+}
+.fOLbutton button{
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid  white;
+    border-radius: 7px;
+    padding: 8px 11px;
+}
+
+.fOfferRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background: #0457b4;
+  border: none;
+background: #C76304;
+background: linear-gradient(235deg, rgba(199, 99, 4, 1) 0%, rgba(209, 115, 16, 0.85) 100%, rgba(212, 119, 19, 0.91) 54%);
+}
+
+.fOfferRTop{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fOfferRTop p{
+  font-weight: 700;
+  font-size: 15px;
+}
+.fORdetail > p {
+  font-size: 12px;
+}
+.fORbutton button{
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid  white;
+    border-radius: 7px;
+    padding: 8px 11px;
+}
+
+/* **five** */
+.five{
+  padding: 20px 20px 0px  20px;
+}
+.five p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: -.8px;
+
+}
+.fvCategories{
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  text-align: center;
+}
+.fvCone{
+  padding: 14px 0px 10px 0px;
+}
+.fvCone img{
+  width: 80px;
+  height: 80px;
+}
+.fvCone p{
+  font-size: 11px;
+  text-align: center;
+  color: rgb(88, 87, 87);
+  padding-top: 5px ;
+  font-weight:600;
+}
+
+/* **six** */
+.six{
+  padding: 0px 20px;
+}
+.six p{
+      padding: 0 0 7px 0;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -.8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sPoster{
+   display: grid;
+  grid-template-columns:repeat(5, 22.7%);
+  overflow-x:scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sPoster::-webkit-scrollbar{
+  display: none;
+}
+.sPone img{
+  width: 311px;
+  height: 166px;
+  border-radius: 9px;
+}
+
+/* **copy** */
+.sixCopy{
+  padding: 13px 20px;
+  height: 40vh;
+}
+.sixCopy p{
+      padding: 0 0 7px 0;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -.8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* **footer** */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:300px;
+  height: 56px;
+  width: 100vw;
+  box-shadow: 4px 0px 12px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  background-color: #FFFFFF;
+}
+.ftrMenue{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+    color: rgb(49, 48, 48);
+
+}
+.ftrMenue :nth-child(1){
+  font-size: 20px;
+  color: grey;
+}
+.ftrOffers{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: rgb(49, 48, 48);
+}
+.ftrOffers :nth-child(1){
+  color: grey;  
+  font-size: 20px;
+  transform: rotate(90deg);
+}
+
